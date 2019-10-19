@@ -31,7 +31,7 @@ mohns_all %>%
 missing_cat_12_stocks <-
   mohns_all %>%
     filter(is.na(ssb_rho) & DataCategory <= 2) %>%
-    select(year, stock, SpeciesCommonName, ExpertGroup, DataCategory, ssb_rho, rec_rho, fbar_rho) %>%
+    select(year, stock, SpeciesCommonName, ExpertGroup, DataCategory) %>%
     arrange(year, stock)
 
 write.taf(missing_cat_12_stocks, dir = "data", quote = TRUE)

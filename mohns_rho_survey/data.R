@@ -24,23 +24,23 @@ write.taf(mohns_all, dir = "data", quote = TRUE)
 
 # all stocks
 mohns_all %>%
-  select(stock, SpeciesCommonName, year, ExpertGroup, ssb_rho, rec_rho, fbar_rho) %>%
-  arrange(stock, year)
+  select(year, stock, SpeciesCommonName, ExpertGroup, DataCategory, ssb_rho, rec_rho, fbar_rho) %>%
+  arrange(year, stock)
 
 # which stocks are not represented
-missing_stocks <-
+missing_cat_12_stocks <-
   mohns_all %>%
-    filter(is.na(ssb_rho)) %>%
-    select(stock, SpeciesCommonName, year, ExpertGroup, ssb_rho, rec_rho, fbar_rho) %>%
-    arrange(stock, year)
+    filter(is.na(ssb_rho) & DataCategory <= 2) %>%
+    select(year, stock, SpeciesCommonName, ExpertGroup, DataCategory, ssb_rho, rec_rho, fbar_rho) %>%
+    arrange(year, stock)
 
-write.taf(missing_stocks, dir = "data", quote = TRUE)
+write.taf(missing_cat_12_stocks, dir = "data", quote = TRUE)
 
 # which stocks *are* represented
 provided_stocks <-
   mohns_all %>%
     filter(!is.na(ssb_rho)) %>%
-    select(stock, SpeciesCommonName, year, ExpertGroup, ssb_rho, rec_rho, fbar_rho) %>%
-    arrange(stock, year)
+    select(year, stock, SpeciesCommonName, ExpertGroup, DataCategory, ssb_rho, rec_rho, fbar_rho) %>%
+    arrange(year, stock)
 
 write.taf(provided_stocks, dir = "data", quote = TRUE)

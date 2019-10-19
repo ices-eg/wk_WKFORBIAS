@@ -46,6 +46,19 @@ getList <- function(lst) {
 mohns_2018 <- getList('Retro-bias-2018')
 mohns_2019 <- getList('Retro-bias-2019')
 
+# combine
+mohns_all <-
+  rbind(cbind(mohns_2018, year = 2018),
+        cbind(mohns_2019, year = 2019))
+rownames(mohns_all) <- NULL
+
+# check which stock names were missing
+mohns_all %>% filter(stock == "")
+
+# remove names
+mohns_all <- 
+  mohns_all %>%
+  select(-author, -editor)
+
 # save
-write.taf(mohns_2018, quote = TRUE)
-write.taf(mohns_2019, quote = TRUE)
+write.taf(mohns_all, quote = TRUE)

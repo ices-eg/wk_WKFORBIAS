@@ -37,7 +37,8 @@ missing_cat_12_stocks <-
 # remove ones that are not relavent
 missing_cat_12_stocks <-
   missing_cat_12_stocks %>%
-  filter(!substring(stock, 1, 3) %in% c("nep", "sal", "pra"))
+  filter(!substring(stock, 1, 3) %in% c("nep", "sal")) %>%
+  filter(!stock %in% c("her.27.30"))
 
 write.taf(missing_cat_12_stocks, dir = "data", quote = TRUE)
 
@@ -48,4 +49,20 @@ provided_stocks <-
     select(year, stock, SpeciesCommonName, ExpertGroup, DataCategory, ssb_rho, rec_rho, fbar_rho) %>%
     arrange(year, stock)
 
+
+
+#mohns_all[mohns_all$year == 2019 & 
+#          mohns_all$stock == "nop.27.3a4", 
+#          c("ssb_rho", "rec_rho", "fbar_rho")] 
+# is 50% for SSB, -33% for Fbar, and 103% for R shown in Figure 12.3.8. 
+
+# .  For Icelandic saithe retro of SSB is 0.08, F -0.07, Recruiment -0.46 and Reference biomass -0.01.  
+
+
+
+# apply submissions not in DB
+
+
 write.taf(provided_stocks, dir = "data", quote = TRUE)
+
+

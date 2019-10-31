@@ -34,6 +34,11 @@ missing_cat_12_stocks <-
     select(year, stock, SpeciesCommonName, ExpertGroup, DataCategory) %>%
     arrange(year, stock)
 
+# remove ones that are not relavent
+missing_cat_12_stocks <-
+  missing_cat_12_stocks %>%
+  filter(!substring(stock, 1, 3) %in% c("nep", "sal", "pra"))
+
 write.taf(missing_cat_12_stocks, dir = "data", quote = TRUE)
 
 # which stocks *are* represented

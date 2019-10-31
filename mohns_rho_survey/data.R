@@ -31,7 +31,8 @@ mohns_all %>%
 # which stocks are not represented
 missing_cat_12_stocks <-
   mohns_all %>%
-    filter(is.na(ssb_rho) & DataCategory <= 2) %>%
+    filter(is.na(ssb_rho) & DataCategory <= 2 &
+           grepl("Age-structured", AssessmentType)) %>%
     select(year, stock, SpeciesCommonName, ExpertGroup, DataCategory) %>%
     arrange(year, stock)
 

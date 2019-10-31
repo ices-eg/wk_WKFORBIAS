@@ -17,7 +17,8 @@ sd <- read.taf("bootstrap/data/sid_data/stockinfo.csv")
 mohns_all <-
   mohns_all %>%
   right_join(sd, by = c("stock", "year")) %>%
-  arrange(stock, year)
+  arrange(stock, year) %>%
+  select(-GeneratedOn)
 
 # save
 write.taf(mohns_all, dir = "data", quote = TRUE)

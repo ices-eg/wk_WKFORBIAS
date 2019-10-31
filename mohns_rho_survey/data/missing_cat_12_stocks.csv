@@ -1,7 +1,5 @@
 "year","stock","SpeciesCommonName","ExpertGroup","DataCategory"
 2018,"bli.27.5b67","Blue ling","WGDEEP",1
-2018,"cap.27.1-2","Capelin","AFWG",1.8
-2018,"cap.27.2a514","Capelin","NWWG",1.8
 2018,"cod.27.1-2","Cod","AFWG",1
 2018,"dgs.27.nea","Spurdog","WGEF",1.2
 2018,"ghl.27.1-2","Greenland halibut","AFWG",1
@@ -27,8 +25,6 @@
 2019,"ane.27.8","Anchovy","WGHANSA",1
 2019,"bli.27.5b67","Blue ling","WGDEEP",1
 2019,"bss.27.4bc7ad-h","Seabass","WGCSE",1.2
-2019,"cap.27.1-2","Capelin","AFWG",1.8
-2019,"cap.27.2a514","Capelin","NWWG",1.8
 2019,"cod.27.1-2","Cod","AFWG",1
 2019,"cod.27.5b1","Cod","NWWG",1.7
 2019,"dgs.27.nea","Spurdog","WGEF",1.2

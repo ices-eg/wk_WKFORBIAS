@@ -37,7 +37,7 @@ missing_cat_12_stocks <-
 # remove ones that are not relavent
 missing_cat_12_stocks <-
   missing_cat_12_stocks %>%
-  filter(!substring(stock, 1, 3) %in% c("nep", "sal")) %>%
+  filter(!substring(stock, 1, 3) %in% c("nep", "sal", "cap")) %>%
   filter(!stock %in% c("her.27.30"))
 
 write.taf(missing_cat_12_stocks, dir = "data", quote = TRUE)

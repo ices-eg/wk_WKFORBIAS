@@ -39,8 +39,8 @@ missing_cat_12_stocks <-
 missing_cat_12_stocks <-
   missing_cat_12_stocks %>%
   filter(!substring(stock, 1, 3) %in% c("nep", "sal", "cap")) %>%
-  filter(!stock %in% c("her.27.30")) %>%
-  filter(!grepl(".*[(]SS3|Gadget[)].*", AssessmentType))
+  filter(!stock %in% c("her.27.30", "dgs.27.nea", "bli.27.5b67")) %>%
+  filter(!grepl(".*SS3|Gadget.*", AssessmentType))
 
 write.taf(missing_cat_12_stocks, dir = "data", quote = TRUE)
 

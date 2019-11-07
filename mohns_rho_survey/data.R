@@ -18,7 +18,7 @@ mohns_all <-
   mohns_all %>%
   right_join(sd, by = c("stock", "year")) %>%
   arrange(stock, year) %>%
-  select(-GeneratedOn)
+  select(-GeneratedOn, -ModifiedDate)
 
 # save
 write.taf(mohns_all, dir = "data", quote = TRUE)

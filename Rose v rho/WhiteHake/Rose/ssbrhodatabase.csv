@@ -1,0 +1,556 @@
+"scenario","change.year","ramp","cmult","mmult","mselxlab","ssbrho"
+"Base Case",2018,0,1,1,"All Ages",0.243526049411115
+"Sudden Cmults",2000,0,1.5,1,"All Ages",0.250101316494943
+"Sudden Cmults",2000,0,2,1,"All Ages",0.138054760041567
+"Sudden Cmults",2000,0,2.5,1,"All Ages",0.0227984118078938
+"Sudden Cmults",2000,0,3,1,"All Ages",-0.0710354309782754
+"Sudden Cmults",2000,0,3.5,1,"All Ages",-0.142404991798466
+"Sudden Cmults",2000,0,4,1,"All Ages",-0.197405893924195
+"Sudden Cmults",2000,0,4.5,1,"All Ages",-0.241662370612074
+"Sudden Cmults",2000,0,5,1,"All Ages",-0.27593498304199
+"Sudden Cmults",2005,0,1.5,1,"All Ages",0.247178088988859
+"Sudden Cmults",2005,0,2,1,"All Ages",0.0655969912778201
+"Sudden Cmults",2005,0,2.5,1,"All Ages",-0.0976660292411414
+"Sudden Cmults",2005,0,3,1,"All Ages",-0.213784657830199
+"Sudden Cmults",2005,0,3.5,1,"All Ages",-0.296146389291911
+"Sudden Cmults",2005,0,4,1,"All Ages",-0.356515149813333
+"Sudden Cmults",2005,0,4.5,1,"All Ages",-0.402665357883881
+"Sudden Cmults",2005,0,5,1,"All Ages",-0.439052059486528
+"Sudden Cmults",2010,0,1.5,1,"All Ages",0.265832327640143
+"Sudden Cmults",2010,0,2,1,"All Ages",0.0942633471727485
+"Sudden Cmults",2010,0,2.5,1,"All Ages",-0.0974566974781634
+"Sudden Cmults",2010,0,3,1,"All Ages",-0.238963283772476
+"Sudden Cmults",2010,0,3.5,1,"All Ages",-0.337900526751763
+"Sudden Cmults",2010,0,4,1,"All Ages",-0.408466412646131
+"Sudden Cmults",2010,0,4.5,1,"All Ages",-0.460527046106794
+"Sudden Cmults",2010,0,5,1,"All Ages",-0.500118590292917
+"Sudden Cmults",2015,0,1.5,1,"All Ages",0.24289000410842
+"Sudden Cmults",2015,0,2,1,"All Ages",0.22394292445302
+"Sudden Cmults",2015,0,2.5,1,"All Ages",0.1819413398351
+"Sudden Cmults",2015,0,3,1,"All Ages",0.119466541158227
+"Sudden Cmults",2015,0,3.5,1,"All Ages",0.0453438577021744
+"Sudden Cmults",2015,0,4,1,"All Ages",-0.03114028091007
+"Sudden Cmults",2015,0,4.5,1,"All Ages",-0.103868470157786
+"Sudden Cmults",2015,0,5,1,"All Ages",-0.169991256280953
+"Sudden Cmults",2000,0,2.6,1,"All Ages",0.0020310430050496
+"Sudden Cmults",2000,0,2.7,1,"All Ages",-0.0177156842280892
+"Sudden Cmults",2000,0,2.8,1,"All Ages",-0.0364559774499952
+"Sudden Cmults",2000,0,2.9,1,"All Ages",-0.0542173952636866
+"Sudden Cmults",2005,0,2.1,1,"All Ages",0.0289970608781118
+"Sudden Cmults",2005,0,2.2,1,"All Ages",-0.0057499369316205
+"Sudden Cmults",2005,0,2.3,1,"All Ages",-0.0384580432462979
+"Sudden Cmults",2005,0,2.4,1,"All Ages",-0.0690826599537365
+"Sudden Cmults",2010,0,2.1,1,"All Ages",0.0529651213027404
+"Sudden Cmults",2010,0,2.2,1,"All Ages",0.0126394012183001
+"Sudden Cmults",2010,0,2.3,1,"All Ages",-0.02608401435581
+"Sudden Cmults",2010,0,2.4,1,"All Ages",-0.062841133174223
+"Sudden Cmults",2015,0,3.6,1,"All Ages",0.0299862495729571
+"Sudden Cmults",2015,0,3.7,1,"All Ages",0.0146074055875934
+"Sudden Cmults",2015,0,3.8,1,"All Ages",-0.000738192327494092
+"Sudden Cmults",2015,0,3.9,1,"All Ages",-0.0160015610978613
+"Ramp4 Cmults",2000,4,1.5,1,"All Ages",0.254649445741042
+"Ramp4 Cmults",2000,4,2,1,"All Ages",0.166766974606457
+"Ramp4 Cmults",2000,4,2.5,1,"All Ages",0.0668928296138618
+"Ramp4 Cmults",2000,4,3,1,"All Ages",-0.0151597683609437
+"Ramp4 Cmults",2000,4,3.5,1,"All Ages",-0.0834294163560462
+"Ramp4 Cmults",2000,4,4,1,"All Ages",-0.134948467656008
+"Ramp4 Cmults",2000,4,4.5,1,"All Ages",-0.173096503378426
+"Ramp4 Cmults",2000,4,5,1,"All Ages",-0.176014648058834
+"Ramp4 Cmults",2005,4,1.5,1,"All Ages",0.249112551537858
+"Ramp4 Cmults",2005,4,2,1,"All Ages",0.0968147556322596
+"Ramp4 Cmults",2005,4,2.5,1,"All Ages",-0.0481059646019606
+"Ramp4 Cmults",2005,4,3,1,"All Ages",-0.15553188256518
+"Ramp4 Cmults",2005,4,3.5,1,"All Ages",-0.234378976827705
+"Ramp4 Cmults",2005,4,4,1,"All Ages",-0.294202212545706
+"Ramp4 Cmults",2005,4,4.5,1,"All Ages",-0.340239520311452
+"Ramp4 Cmults",2005,4,5,1,"All Ages",-0.376504021859569
+"Ramp4 Cmults",2010,4,1.5,1,"All Ages",0.257533557085307
+"Ramp4 Cmults",2010,4,2,1,"All Ages",0.067102545684795
+"Ramp4 Cmults",2010,4,2.5,1,"All Ages",-0.116342314071442
+"Ramp4 Cmults",2010,4,3,1,"All Ages",-0.245436886356015
+"Ramp4 Cmults",2010,4,3.5,1,"All Ages",-0.33488240982192
+"Ramp4 Cmults",2010,4,4,1,"All Ages",-0.399038672490253
+"Ramp4 Cmults",2010,4,4.5,1,"All Ages",-0.446755627391198
+"Ramp4 Cmults",2010,4,5,1,"All Ages",-0.483625331231272
+"Ramp4 Cmults",2015,4,1.5,1,"All Ages",0.265826242089581
+"Ramp4 Cmults",2015,4,2,1,"All Ages",0.203975439663797
+"Ramp4 Cmults",2015,4,2.5,1,"All Ages",0.0682848126476314
+"Ramp4 Cmults",2015,4,3,1,"All Ages",-0.0773704655104032
+"Ramp4 Cmults",2015,4,3.5,1,"All Ages",-0.201197247941441
+"Ramp4 Cmults",2015,4,4,1,"All Ages",-0.299166263213967
+"Ramp4 Cmults",2015,4,4.5,1,"All Ages",-0.375574696533792
+"Ramp4 Cmults",2015,4,5,1,"All Ages",-0.435552417506367
+"Ramp4 Cmults",2000,4,2.6,1,"All Ages",0.0488301268732936
+"Ramp4 Cmults",2000,4,2.7,1,"All Ages",0.0315855695760827
+"Ramp4 Cmults",2000,4,2.8,1,"All Ages",0.0151813473186709
+"Ramp4 Cmults",2000,4,2.9,1,"All Ages",-0.000371491738743411
+"Ramp4 Cmults",2015,4,2.6,1,"All Ages",0.0383215684825833
+"Ramp4 Cmults",2015,4,2.7,1,"All Ages",0.00850775798002888
+"Ramp4 Cmults",2015,4,2.8,1,"All Ages",-0.0208542797646589
+"Ramp4 Cmults",2015,4,2.9,1,"All Ages",-0.0495351519575067
+"Ramp4 Cmults",2005,4,2.1,1,"All Ages",0.0650074542946834
+"Ramp4 Cmults",2005,4,2.2,1,"All Ages",0.0344461935355959
+"Ramp4 Cmults",2005,4,2.3,1,"All Ages",0.00535392321682712
+"Ramp4 Cmults",2005,4,2.4,1,"All Ages",-0.0221699142891034
+"Ramp4 Cmults",2010,4,2.1,1,"All Ages",0.0261951990971841
+"Ramp4 Cmults",2010,4,2.2,1,"All Ages",-0.012861938683753
+"Ramp4 Cmults",2010,4,2.3,1,"All Ages",-0.0497103857526319
+"Ramp4 Cmults",2010,4,2.4,1,"All Ages",-0.0842064052736486
+"Ramp9 Cmults",2000,9,1.5,1,"All Ages",0.260096676472726
+"Ramp9 Cmults",2000,9,2,1,"All Ages",0.202546881376761
+"Ramp9 Cmults",2000,9,2.5,1,"All Ages",0.131177605832842
+"Ramp9 Cmults",2000,9,3,1,"All Ages",0.0650816112961221
+"Ramp9 Cmults",2000,9,3.5,1,"All Ages",0.0139992364856227
+"Ramp9 Cmults",2000,9,4,1,"All Ages",-0.0218532799142575
+"Ramp9 Cmults",2000,9,4.5,1,"All Ages",-0.0119895823024677
+"Ramp9 Cmults",2000,9,5,1,"All Ages",-0.0685713654862628
+"Ramp9 Cmults",2005,9,1.5,1,"All Ages",0.253597090000069
+"Ramp9 Cmults",2005,9,2,1,"All Ages",0.136319128070533
+"Ramp9 Cmults",2005,9,2.5,1,"All Ages",0.0162625898156622
+"Ramp9 Cmults",2005,9,3,1,"All Ages",-0.0806698320305688
+"Ramp9 Cmults",2005,9,3.5,1,"All Ages",-0.154215761593343
+"Ramp9 Cmults",2005,9,4,1,"All Ages",-0.210076936680413
+"Ramp9 Cmults",2005,9,4.5,1,"All Ages",-0.255996079369521
+"Ramp9 Cmults",2005,9,5,1,"All Ages",-0.291935138920083
+"Ramp9 Cmults",2010,9,1.5,1,"All Ages",0.252957813309551
+"Ramp9 Cmults",2010,9,2,1,"All Ages",0.0805210331905142
+"Ramp9 Cmults",2010,9,2.5,1,"All Ages",-0.0835582141544272
+"Ramp9 Cmults",2010,9,3,1,"All Ages",-0.201783005579443
+"Ramp9 Cmults",2010,9,3.5,1,"All Ages",-0.285610632729711
+"Ramp9 Cmults",2010,9,4,1,"All Ages",-0.346934363275179
+"Ramp9 Cmults",2010,9,4.5,1,"All Ages",-0.393803540828486
+"Ramp9 Cmults",2010,9,5,1,"All Ages",-0.430641300206786
+"Ramp9 Cmults",2015,9,1.5,1,"All Ages",0.271153262411191
+"Ramp9 Cmults",2015,9,2,1,"All Ages",0.136373029173094
+"Ramp9 Cmults",2015,9,2.5,1,"All Ages",-0.048213252957477
+"Ramp9 Cmults",2015,9,3,1,"All Ages",-0.19763217553987
+"Ramp9 Cmults",2015,9,3.5,1,"All Ages",-0.306310187981955
+"Ramp9 Cmults",2015,9,4,1,"All Ages",-0.385066760280152
+"Ramp9 Cmults",2015,9,4.5,1,"All Ages",-0.443453208361543
+"Ramp9 Cmults",2015,9,5,1,"All Ages",-0.48793805127751
+"Ramp9 Cmults",2000,9,3.6,1,"All Ages",0.00544113865911614
+"Ramp9 Cmults",2000,9,3.7,1,"All Ages",-0.00250787355666884
+"Ramp9 Cmults",2000,9,3.8,1,"All Ages",-0.00979339310867149
+"Ramp9 Cmults",2000,9,3.9,1,"All Ages",-0.0163157658597593
+"Ramp9 Cmults",2005,9,2.6,1,"All Ages",-0.00524843974685233
+"Ramp9 Cmults",2005,9,2.7,1,"All Ages",-0.0256682847770309
+"Ramp9 Cmults",2005,9,2.8,1,"All Ages",-0.0450195103356521
+"Ramp9 Cmults",2005,9,2.9,1,"All Ages",-0.0633385084237358
+"Ramp9 Cmults",2010,9,2.1,1,"All Ages",0.0441422030890386
+"Ramp9 Cmults",2010,9,2.2,1,"All Ages",0.00934252922220042
+"Ramp9 Cmults",2010,9,2.3,1,"All Ages",-0.023598377718026
+"Ramp9 Cmults",2010,9,2.4,1,"All Ages",-0.0545676634202941
+"Ramp9 Cmults",2015,9,2.1,1,"All Ages",0.0988570264738509
+"Ramp9 Cmults",2015,9,2.2,1,"All Ages",0.0609123109736182
+"Ramp9 Cmults",2015,9,2.3,1,"All Ages",0.0233879937951657
+"Ramp9 Cmults",2015,9,2.4,1,"All Ages",-0.0131184573346423
+"Sudden Mmults",2000,0,1,1.5,"All Ages",0.067740023029651
+"Sudden Mmults",2000,0,1,2,"All Ages",-0.100615113579205
+"Sudden Mmults",2000,0,1,2.5,"All Ages",-0.251611976503025
+"Sudden Mmults",2000,0,1,3,"All Ages",-0.378318258931064
+"Sudden Mmults",2000,0,1,3.5,"All Ages",-0.469162281114026
+"Sudden Mmults",2000,0,1,4,"All Ages",-0.534219876984255
+"Sudden Mmults",2000,0,1,4.5,"All Ages",-0.583459197576153
+"Sudden Mmults",2000,0,1,5,"All Ages",-0.621880352723869
+"Sudden Mmults",2005,0,1,1.5,"All Ages",0.0488272646365691
+"Sudden Mmults",2005,0,1,2,"All Ages",-0.149212193701803
+"Sudden Mmults",2005,0,1,2.5,"All Ages",-0.324283721522084
+"Sudden Mmults",2005,0,1,3,"All Ages",-0.456697469673305
+"Sudden Mmults",2005,0,1,3.5,"All Ages",-0.548662872124625
+"Sudden Mmults",2005,0,1,4,"All Ages",-0.612435387137112
+"Sudden Mmults",2005,0,1,4.5,"All Ages",-0.656703064968738
+"Sudden Mmults",2005,0,1,5,"All Ages",-0.689591633110855
+"Sudden Mmults",2010,0,1,1.5,"All Ages",0.064961134245443
+"Sudden Mmults",2010,0,1,2,"All Ages",-0.107309769860489
+"Sudden Mmults",2010,0,1,2.5,"All Ages",-0.274112880212801
+"Sudden Mmults",2010,0,1,3,"All Ages",-0.422482069991695
+"Sudden Mmults",2010,0,1,3.5,"All Ages",-0.540870825775239
+"Sudden Mmults",2010,0,1,4,"All Ages",-0.62726686438902
+"Sudden Mmults",2010,0,1,4.5,"All Ages",-0.687870282133556
+"Sudden Mmults",2010,0,1,5,"All Ages",-0.73025180306251
+"Sudden Mmults",2015,0,1,1.5,"All Ages",0.161533831837928
+"Sudden Mmults",2015,0,1,2,"All Ages",0.0864182636650589
+"Sudden Mmults",2015,0,1,2.5,"All Ages",0.0156593881075688
+"Sudden Mmults",2015,0,1,3,"All Ages",-0.0524946643543047
+"Sudden Mmults",2015,0,1,3.5,"All Ages",-0.119269001980754
+"Sudden Mmults",2015,0,1,4,"All Ages",-0.185399647898852
+"Sudden Mmults",2015,0,1,4.5,"All Ages",-0.25105188395613
+"Sudden Mmults",2015,0,1,5,"All Ages",-0.315634658574514
+"Sudden Mmults",2000,0,1,1.6,"All Ages",0.0331845836877264
+"Sudden Mmults",2000,0,1,1.7,"All Ages",-0.000890217160965833
+"Sudden Mmults",2000,0,1,1.8,"All Ages",-0.0345178177219629
+"Sudden Mmults",2000,0,1,1.9,"All Ages",-0.0677835816478119
+"Sudden Mmults",2005,0,1,1.6,"All Ages",0.00897225881949038
+"Sudden Mmults",2005,0,1,1.7,"All Ages",-0.0309992072039994
+"Sudden Mmults",2005,0,1,1.8,"All Ages",-0.0708643498390145
+"Sudden Mmults",2005,0,1,1.9,"All Ages",-0.110361854046791
+"Sudden Mmults",2010,0,1,1.6,"All Ages",0.0302967970126096
+"Sudden Mmults",2010,0,1,1.7,"All Ages",-0.00424774757621355
+"Sudden Mmults",2010,0,1,1.8,"All Ages",-0.0387016796845203
+"Sudden Mmults",2010,0,1,1.9,"All Ages",-0.0730649050236095
+"Sudden Mmults",2015,0,1,2.6,"All Ages",0.00186613431878457
+"Sudden Mmults",2015,0,1,2.7,"All Ages",-0.01183571042427
+"Sudden Mmults",2015,0,1,2.8,"All Ages",-0.0254566242562083
+"Sudden Mmults",2015,0,1,2.9,"All Ages",-0.0390067566622499
+"Ramp4 Mmults",2000,4,1,1.5,"All Ages",0.0738816244763499
+"Ramp4 Mmults",2000,4,1,2,"All Ages",-0.0806174776785118
+"Ramp4 Mmults",2000,4,1,2.5,"All Ages",-0.220818750050808
+"Ramp4 Mmults",2000,4,1,3,"All Ages",-0.345857873959501
+"Ramp4 Mmults",2000,4,1,3.5,"All Ages",-0.436527506746136
+"Ramp4 Mmults",2000,4,1,4,"All Ages",-0.502948947227214
+"Ramp4 Mmults",2000,4,1,4.5,"All Ages",-0.553909406601535
+"Ramp4 Mmults",2000,4,1,5,"All Ages",-0.5941689731801
+"Ramp4 Mmults",2005,4,1,1.5,"All Ages",0.0555359629968366
+"Ramp4 Mmults",2005,4,1,2,"All Ages",-0.13337225121227
+"Ramp4 Mmults",2005,4,1,2.5,"All Ages",-0.300492365008212
+"Ramp4 Mmults",2005,4,1,3,"All Ages",-0.428488899782519
+"Ramp4 Mmults",2005,4,1,3.5,"All Ages",-0.521646280962419
+"Ramp4 Mmults",2005,4,1,4,"All Ages",-0.584680332758
+"Ramp4 Mmults",2005,4,1,4.5,"All Ages",-0.63045864897311
+"Ramp4 Mmults",2005,4,1,5,"All Ages",-0.665472569876127
+"Ramp4 Mmults",2010,4,1,1.5,"All Ages",0.0536248383919615
+"Ramp4 Mmults",2010,4,1,2,"All Ages",-0.135970154565293
+"Ramp4 Mmults",2010,4,1,2.5,"All Ages",-0.313835585709645
+"Ramp4 Mmults",2010,4,1,3,"All Ages",-0.459691396159094
+"Ramp4 Mmults",2010,4,1,3.5,"All Ages",-0.56565021928641
+"Ramp4 Mmults",2010,4,1,4,"All Ages",-0.638113147390573
+"Ramp4 Mmults",2010,4,1,4.5,"All Ages",-0.687571364872297
+"Ramp4 Mmults",2010,4,1,5,"All Ages",-0.945958217166651
+"Ramp4 Mmults",2015,4,1,1.5,"All Ages",0.114881823617876
+"Ramp4 Mmults",2015,4,1,2,"All Ages",-0.00263047137623142
+"Ramp4 Mmults",2015,4,1,2.5,"All Ages",-0.11487499611724
+"Ramp4 Mmults",2015,4,1,3,"All Ages",-0.224099775918636
+"Ramp4 Mmults",2015,4,1,3.5,"All Ages",-0.329295399246667
+"Ramp4 Mmults",2015,4,1,4,"All Ages",-0.426916369015095
+"Ramp4 Mmults",2015,4,1,4.5,"All Ages",-0.513304145877601
+"Ramp4 Mmults",2015,4,1,5,"All Ages",-0.585954338177422
+"Ramp4 Mmults",2000,4,1,1.6,"All Ages",0.0422823062271128
+"Ramp4 Mmults",2000,4,1,1.7,"All Ages",0.0112069784444236
+"Ramp4 Mmults",2000,4,1,1.8,"All Ages",-0.0197196709149709
+"Ramp4 Mmults",2000,4,1,1.9,"All Ages",-0.0503632073904727
+"Ramp4 Mmults",2005,4,1,1.6,"All Ages",0.0173651982552326
+"Ramp4 Mmults",2005,4,1,1.7,"All Ages",-0.0208696440086781
+"Ramp4 Mmults",2005,4,1,1.8,"All Ages",-0.0589642423978532
+"Ramp4 Mmults",2005,4,1,1.9,"All Ages",-0.0965533317809697
+"Ramp4 Mmults",2010,4,1,1.6,"All Ages",0.0156710265852599
+"Ramp4 Mmults",2010,4,1,1.7,"All Ages",-0.0223535902158023
+"Ramp4 Mmults",2010,4,1,1.8,"All Ages",-0.0603801245900197
+"Ramp4 Mmults",2010,4,1,1.9,"All Ages",-0.0983005231035949
+"Ramp9 Mmults",2000,9,1,1.5,"All Ages",0.079014026404286
+"Ramp9 Mmults",2000,9,1,2,"All Ages",-0.0632211376545804
+"Ramp9 Mmults",2000,9,1,2.5,"All Ages",-0.190577000902628
+"Ramp9 Mmults",2000,9,1,3,"All Ages",-0.311908546335771
+"Ramp9 Mmults",2000,9,1,3.5,"All Ages",-0.40334926867798
+"Ramp9 Mmults",2000,9,1,4,"All Ages",-0.47052220879457
+"Ramp9 Mmults",2000,9,1,4.5,"All Ages",-0.522614689849151
+"Ramp9 Mmults",2000,9,1,5,"All Ages",1.1364611831662
+"Ramp9 Mmults",2005,9,1,1.5,"All Ages",0.0645891348982679
+"Ramp9 Mmults",2005,9,1,2,"All Ages",-0.107824394958912
+"Ramp9 Mmults",2005,9,1,2.5,"All Ages",-0.26302237914311
+"Ramp9 Mmults",2005,9,1,3,"All Ages",-0.388671143895602
+"Ramp9 Mmults",2005,9,1,3.5,"All Ages",-0.483145693222756
+"Ramp9 Mmults",2005,9,1,4,"All Ages",-0.548073204900283
+"Ramp9 Mmults",2005,9,1,4.5,"All Ages",-0.596525203158721
+"Ramp9 Mmults",2005,9,1,5,"All Ages",-0.634070135159112
+"Ramp9 Mmults",2010,9,1,1.5,"All Ages",0.0541966420461551
+"Ramp9 Mmults",2010,9,1,2,"All Ages",-0.136711484003563
+"Ramp9 Mmults",2010,9,1,2.5,"All Ages",-0.311598338591396
+"Ramp9 Mmults",2010,9,1,3,"All Ages",-0.449937981915089
+"Ramp9 Mmults",2010,9,1,3.5,"All Ages",-0.547995686134013
+"Ramp9 Mmults",2010,9,1,4,"All Ages",-0.61620714330779
+"Ramp9 Mmults",2010,9,1,4.5,"All Ages",-0.662871912390184
+"Ramp9 Mmults",2010,9,1,5,"All Ages",-0.696765792050643
+"Ramp9 Mmults",2015,9,1,1.5,"All Ages",0.0847693717087757
+"Ramp9 Mmults",2015,9,1,2,"All Ages",-0.0678967835784436
+"Ramp9 Mmults",2015,9,1,2.5,"All Ages",-0.216953379190564
+"Ramp9 Mmults",2015,9,1,3,"All Ages",-0.356073190953625
+"Ramp9 Mmults",2015,9,1,3.5,"All Ages",-0.476595459645273
+"Ramp9 Mmults",2015,9,1,4,"All Ages",-0.572737494525445
+"Ramp9 Mmults",2015,9,1,4.5,"All Ages",-0.645270483306244
+"Ramp9 Mmults",2015,9,1,5,"All Ages",-0.6987072445129
+"Ramp9 Mmults",2000,9,1,1.6,"All Ages",0.0500469404584255
+"Ramp9 Mmults",2000,9,1,1.7,"All Ages",0.0213001160405042
+"Ramp9 Mmults",2000,9,1,1.8,"All Ages",-0.00736520551859316
+"Ramp9 Mmults",2000,9,1,1.9,"All Ages",-0.0356263823533946
+"Ramp9 Mmults",2005,9,1,1.6,"All Ages",0.0293219141553341
+"Ramp9 Mmults",2005,9,1,1.7,"All Ages",-0.00562324557825319
+"Ramp9 Mmults",2005,9,1,1.8,"All Ages",-0.0400515576487677
+"Ramp9 Mmults",2005,9,1,1.9,"All Ages",-0.0741580091943348
+"Ramp9 Mmults",2010,9,1,1.6,"All Ages",0.0159623289747944
+"Ramp9 Mmults",2010,9,1,1.7,"All Ages",-0.0223934380812842
+"Ramp9 Mmults",2010,9,1,1.8,"All Ages",-0.0607434956885823
+"Ramp9 Mmults",2010,9,1,1.9,"All Ages",-0.0989178259696723
+"Ramp9 Mmults",2015,9,1,1.6,"All Ages",0.0539760808299502
+"Ramp9 Mmults",2015,9,1,1.7,"All Ages",0.0233369648398882
+"Ramp9 Mmults",2015,9,1,1.8,"All Ages",-0.00717972117945539
+"Ramp9 Mmults",2015,9,1,1.9,"All Ages",-0.0375904411729546
+"Old Sudden Mmults",2000,0,1,1.5,"Old Ages",0.119122971525453
+"Old Sudden Mmults",2000,0,1,2,"Old Ages",0.0417045757217386
+"Old Sudden Mmults",2000,0,1,2.5,"Old Ages",-0.0154432753572722
+"Old Sudden Mmults",2000,0,1,3,"Old Ages",-0.0602771636533193
+"Old Sudden Mmults",2000,0,1,3.5,"Old Ages",-0.096215652550441
+"Old Sudden Mmults",2000,0,1,4,"Old Ages",-0.125212394972573
+"Old Sudden Mmults",2000,0,1,4.5,"Old Ages",-0.148509313616273
+"Old Sudden Mmults",2000,0,1,5,"Old Ages",-0.166816668216991
+"Old Sudden Mmults",2005,0,1,1.5,"Old Ages",0.121387110702915
+"Old Sudden Mmults",2005,0,1,2,"Old Ages",0.039591545362345
+"Old Sudden Mmults",2005,0,1,2.5,"Old Ages",-0.0235104109133826
+"Old Sudden Mmults",2005,0,1,3,"Old Ages",-0.0744894449535961
+"Old Sudden Mmults",2005,0,1,3.5,"Old Ages",-0.116175361146081
+"Old Sudden Mmults",2005,0,1,4,"Old Ages",-0.150394345581039
+"Old Sudden Mmults",2005,0,1,4.5,"Old Ages",-0.178583200150317
+"Old Sudden Mmults",2005,0,1,5,"Old Ages",-0.201923865303263
+"Old Sudden Mmults",2010,0,1,1.5,"Old Ages",0.127565519277507
+"Old Sudden Mmults",2010,0,1,2,"Old Ages",0.0448041140276156
+"Old Sudden Mmults",2010,0,1,2.5,"Old Ages",-0.0209201196714579
+"Old Sudden Mmults",2010,0,1,3,"Old Ages",-0.0757655460678515
+"Old Sudden Mmults",2010,0,1,3.5,"Old Ages",-0.122227359206573
+"Old Sudden Mmults",2010,0,1,4,"Old Ages",-0.161571969513902
+"Old Sudden Mmults",2010,0,1,4.5,"Old Ages",-0.194755571632972
+"Old Sudden Mmults",2010,0,1,5,"Old Ages",-0.222683830986567
+"Old Sudden Mmults",2015,0,1,1.5,"Old Ages",0.186059234307677
+"Old Sudden Mmults",2015,0,1,2,"Old Ages",0.137432726657691
+"Old Sudden Mmults",2015,0,1,2.5,"Old Ages",0.0956240041604081
+"Old Sudden Mmults",2015,0,1,3,"Old Ages",0.0592438877858794
+"Old Sudden Mmults",2015,0,1,3.5,"Old Ages",0.0273084062705572
+"Old Sudden Mmults",2015,0,1,4,"Old Ages",-0.00090011231424089
+"Old Sudden Mmults",2015,0,1,4.5,"Old Ages",-0.025922343687769
+"Old Sudden Mmults",2015,0,1,5,"Old Ages",-0.0481814885512546
+"Old Sudden Mmults",2000,0,1,2.1,"Old Ages",0.0290260962221549
+"Old Sudden Mmults",2000,0,1,2.2,"Old Ages",0.0170321867878285
+"Old Sudden Mmults",2000,0,1,2.3,"Old Ages",0.00565715628087583
+"Old Sudden Mmults",2000,0,1,2.4,"Old Ages",-0.0051526699087418
+"Old Sudden Mmults",2005,0,1,2.1,"Old Ages",0.025785956985539
+"Old Sudden Mmults",2005,0,1,2.2,"Old Ages",0.0126228719055624
+"Old Sudden Mmults",2005,0,1,2.3,"Old Ages",4.76305914799769e-05
+"Old Sudden Mmults",2005,0,1,2.4,"Old Ages",-0.0119846540265677
+"Old Sudden Mmults",2010,0,1,2.1,"Old Ages",0.0305785295427955
+"Old Sudden Mmults",2010,0,1,2.2,"Old Ages",0.0169424088945231
+"Old Sudden Mmults",2010,0,1,2.3,"Old Ages",0.00384193364356687
+"Old Sudden Mmults",2010,0,1,2.4,"Old Ages",-0.00876658092218818
+"Old Ramp4 Mmults",2000,4,1,1.5,"Old Ages",0.11881222778188
+"Old Ramp4 Mmults",2000,4,1,2,"Old Ages",0.0430785537019657
+"Old Ramp4 Mmults",2000,4,1,2.5,"Old Ages",-0.0119187577051596
+"Old Ramp4 Mmults",2000,4,1,3,"Old Ages",-0.0545941530289698
+"Old Ramp4 Mmults",2000,4,1,3.5,"Old Ages",-0.0885150111065621
+"Old Ramp4 Mmults",2000,4,1,4,"Old Ages",-0.115630801923924
+"Old Ramp4 Mmults",2000,4,1,4.5,"Old Ages",-0.137053530951413
+"Old Ramp4 Mmults",2000,4,1,5,"Old Ages",-0.153090664495735
+"Old Ramp4 Mmults",2005,4,1,1.5,"Old Ages",0.120463298874103
+"Old Ramp4 Mmults",2005,4,1,2,"Old Ages",0.0406255879598811
+"Old Ramp4 Mmults",2005,4,1,2.5,"Old Ages",-0.0197062420594262
+"Old Ramp4 Mmults",2005,4,1,3,"Old Ages",-0.0676810111998474
+"Old Ramp4 Mmults",2005,4,1,3.5,"Old Ages",-0.106429587278081
+"Old Ramp4 Mmults",2005,4,1,4,"Old Ages",-0.137906001326059
+"Old Ramp4 Mmults",2005,4,1,4.5,"Old Ages",-0.16354360214155
+"Old Ramp4 Mmults",2005,4,1,5,"Old Ages",-0.184436965311688
+"Old Ramp4 Mmults",2010,4,1,1.5,"Old Ages",0.123987324259443
+"Old Ramp4 Mmults",2010,4,1,2,"Old Ages",0.0406389707237768
+"Old Ramp4 Mmults",2010,4,1,2.5,"Old Ages",-0.0250110085277796
+"Old Ramp4 Mmults",2010,4,1,3,"Old Ages",-0.0791570062281245
+"Old Ramp4 Mmults",2010,4,1,3.5,"Old Ages",-0.124263403414832
+"Old Ramp4 Mmults",2010,4,1,4,"Old Ages",-0.16178363935018
+"Old Ramp4 Mmults",2010,4,1,4.5,"Old Ages",-0.192936009044398
+"Old Ramp4 Mmults",2010,4,1,5,"Old Ages",-0.218834056925304
+"Old Ramp4 Mmults",2015,4,1,1.5,"Old Ages",0.153574439060367
+"Old Ramp4 Mmults",2015,4,1,2,"Old Ages",0.0837598343558481
+"Old Ramp4 Mmults",2015,4,1,2.5,"Old Ages",0.0267773821263002
+"Old Ramp4 Mmults",2015,4,1,3,"Old Ages",-0.0213699925086079
+"Old Ramp4 Mmults",2015,4,1,3.5,"Old Ages",-0.0629668127216618
+"Old Ramp4 Mmults",2015,4,1,4,"Old Ages",-0.0993681100687149
+"Old Ramp4 Mmults",2015,4,1,4.5,"Old Ages",-0.131428999697833
+"Old Ramp4 Mmults",2015,4,1,5,"Old Ages",-0.159750344297505
+"Old Ramp4 Mmults",2000,4,1,2.1,"Old Ages",0.0308143950301534
+"Old Ramp4 Mmults",2000,4,1,2.2,"Old Ages",0.0192463078509077
+"Old Ramp4 Mmults",2000,4,1,2.3,"Old Ages",0.00830490251456985
+"Old Ramp4 Mmults",2000,4,1,2.4,"Old Ages",-0.00206757238988797
+"Old Ramp4 Mmults",2005,4,1,2.1,"Old Ages",0.027333887944788
+"Old Ramp4 Mmults",2005,4,1,2.2,"Old Ages",0.0147089123327011
+"Old Ramp4 Mmults",2005,4,1,2.3,"Old Ages",0.00269163775388942
+"Old Ramp4 Mmults",2005,4,1,2.4,"Old Ages",-0.00876679923432533
+"Old Ramp4 Mmults",2010,4,1,2.1,"Old Ages",0.0263853762841427
+"Old Ramp4 Mmults",2010,4,1,2.2,"Old Ages",0.0127415713761948
+"Old Ramp4 Mmults",2010,4,1,2.3,"Old Ages",-0.000344954233750022
+"Old Ramp4 Mmults",2010,4,1,2.4,"Old Ages",-0.0129177591185463
+"Old Ramp4 Mmults",2015,4,1,2.6,"Old Ages",0.0165323370896157
+"Old Ramp4 Mmults",2015,4,1,2.7,"Old Ages",0.00661382573644428
+"Old Ramp4 Mmults",2015,4,1,2.8,"Old Ages",-0.00299819390794797
+"Old Ramp4 Mmults",2015,4,1,2.9,"Old Ages",-0.0123205559508066
+"Old Ramp9 Mmults",2000,9,1,1.5,"Old Ages",0.118172400166307
+"Old Ramp9 Mmults",2000,9,1,2,"Old Ages",0.0434240347793156
+"Old Ramp9 Mmults",2000,9,1,2.5,"Old Ages",-0.00991350235765121
+"Old Ramp9 Mmults",2000,9,1,3,"Old Ages",-0.050534611853217
+"Old Ramp9 Mmults",2000,9,1,3.5,"Old Ages",-0.0820229617800476
+"Old Ramp9 Mmults",2000,9,1,4,"Old Ages",-0.106089563982242
+"Old Ramp9 Mmults",2000,9,1,4.5,"Old Ages",-0.123013850497885
+"Old Ramp9 Mmults",2000,9,1,5,"Old Ages",-0.129121246404233
+"Old Ramp9 Mmults",2005,9,1,1.5,"Old Ages",0.119467401970847
+"Old Ramp9 Mmults",2005,9,1,2,"Old Ages",0.0414561078289237
+"Old Ramp9 Mmults",2005,9,1,2.5,"Old Ages",-0.0163542971426337
+"Old Ramp9 Mmults",2005,9,1,3,"Old Ages",-0.0617236562250034
+"Old Ramp9 Mmults",2005,9,1,3.5,"Old Ages",-0.0980234852023474
+"Old Ramp9 Mmults",2005,9,1,4,"Old Ages",-0.127243420475379
+"Old Ramp9 Mmults",2005,9,1,4.5,"Old Ages",-0.150709186582567
+"Old Ramp9 Mmults",2005,9,1,5,"Old Ages",-0.169255471213143
+"Old Ramp9 Mmults",2010,9,1,1.5,"Old Ages",0.121943167362949
+"Old Ramp9 Mmults",2010,9,1,2,"Old Ages",0.039988120114976
+"Old Ramp9 Mmults",2010,9,1,2.5,"Old Ages",-0.0233139999016115
+"Old Ramp9 Mmults",2010,9,1,3,"Old Ages",-0.0745769774384319
+"Old Ramp9 Mmults",2010,9,1,3.5,"Old Ages",-0.116554460317139
+"Old Ramp9 Mmults",2010,9,1,4,"Old Ages",-0.150964054176133
+"Old Ramp9 Mmults",2010,9,1,4.5,"Old Ages",-0.179183779535156
+"Old Ramp9 Mmults",2010,9,1,5,"Old Ages",-0.20237884580663
+"Old Ramp9 Mmults",2015,9,1,1.5,"Old Ages",0.137703264676414
+"Old Ramp9 Mmults",2015,9,1,2,"Old Ages",0.0598671576792963
+"Old Ramp9 Mmults",2015,9,1,2.5,"Old Ages",-0.00251182419046809
+"Old Ramp9 Mmults",2015,9,1,3,"Old Ages",-0.0548898182108337
+"Old Ramp9 Mmults",2015,9,1,3.5,"Old Ages",-0.099773031653692
+"Old Ramp9 Mmults",2015,9,1,4,"Old Ages",-0.138440743748091
+"Old Ramp9 Mmults",2015,9,1,4.5,"Old Ages",-0.17171429600099
+"Old Ramp9 Mmults",2015,9,1,5,"Old Ages",-0.200272458115293
+"Old Ramp9 Mmults",2000,9,1,2.1,"Old Ages",0.0314516950400107
+"Old Ramp9 Mmults",2000,9,1,2.2,"Old Ages",0.0201980020941607
+"Old Ramp9 Mmults",2000,9,1,2.3,"Old Ages",0.00959078227829875
+"Old Ramp9 Mmults",2000,9,1,2.4,"Old Ages",-0.000430048505310604
+"Old Ramp9 Mmults",2005,9,1,2.1,"Old Ages",0.0286411715120243
+"Old Ramp9 Mmults",2005,9,1,2.2,"Old Ages",0.0165113722049858
+"Old Ramp9 Mmults",2005,9,1,2.3,"Old Ages",0.00500260581066858
+"Old Ramp9 Mmults",2005,9,1,2.4,"Old Ages",-0.00593765086385326
+"Old Ramp9 Mmults",2010,9,1,2.1,"Old Ages",0.0261481236370984
+"Old Ramp9 Mmults",2010,9,1,2.2,"Old Ages",0.0129481708397554
+"Old Ramp9 Mmults",2010,9,1,2.3,"Old Ages",0.000333443236556387
+"Old Ramp9 Mmults",2010,9,1,2.4,"Old Ages",-0.0117418106977239
+"Old Ramp9 Mmults",2015,9,1,2.1,"Old Ages",0.0463936640992228
+"Old Ramp9 Mmults",2015,9,1,2.2,"Old Ages",0.0334629280878633
+"Old Ramp9 Mmults",2015,9,1,2.3,"Old Ages",0.0210276584983775
+"Old Ramp9 Mmults",2015,9,1,2.4,"Old Ages",0.00904731651347179
+"Young Sudden Mmults",2000,0,1,1.5,"Young Ages",0.230142917858322
+"Young Sudden Mmults",2000,0,1,2,"Young Ages",0.199618935241664
+"Young Sudden Mmults",2000,0,1,2.5,"Young Ages",0.134669335586847
+"Young Sudden Mmults",2000,0,1,3,"Young Ages",0.0288153044786223
+"Young Sudden Mmults",2000,0,1,3.5,"Young Ages",-0.0952907254169072
+"Young Sudden Mmults",2000,0,1,4,"Young Ages",-0.217909641154897
+"Young Sudden Mmults",2000,0,1,4.5,"Young Ages",-0.325175362739077
+"Young Sudden Mmults",2000,0,1,5,"Young Ages",-0.411867401025768
+"Young Sudden Mmults",2005,0,1,1.5,"Young Ages",0.214090331718863
+"Young Sudden Mmults",2005,0,1,2,"Young Ages",0.169120947160015
+"Young Sudden Mmults",2005,0,1,2.5,"Young Ages",0.103135377136497
+"Young Sudden Mmults",2005,0,1,3,"Young Ages",0.00899599349959643
+"Young Sudden Mmults",2005,0,1,3.5,"Young Ages",-0.106236155585557
+"Young Sudden Mmults",2005,0,1,4,"Young Ages",-0.225676552713426
+"Young Sudden Mmults",2005,0,1,4.5,"Young Ages",-0.334665587891495
+"Young Sudden Mmults",2005,0,1,5,"Young Ages",-0.428412358834485
+"Young Sudden Mmults",2010,0,1,1.5,"Young Ages",0.212565916809966
+"Young Sudden Mmults",2010,0,1,2,"Young Ages",0.183043632444696
+"Young Sudden Mmults",2010,0,1,2.5,"Young Ages",0.154599726166184
+"Young Sudden Mmults",2010,0,1,3,"Young Ages",0.126962697284544
+"Young Sudden Mmults",2010,0,1,3.5,"Young Ages",0.0971088224491788
+"Young Sudden Mmults",2010,0,1,4,"Young Ages",0.0626948742784782
+"Young Sudden Mmults",2010,0,1,4.5,"Young Ages",0.0221207934715424
+"Young Sudden Mmults",2010,0,1,5,"Young Ages",-0.0249918122455683
+"Young Sudden Mmults",2015,0,1,1.5,"Young Ages",0.222265941667772
+"Young Sudden Mmults",2015,0,1,2,"Young Ages",0.202053403773011
+"Young Sudden Mmults",2015,0,1,2.5,"Young Ages",0.182827695570987
+"Young Sudden Mmults",2015,0,1,3,"Young Ages",0.164536452450263
+"Young Sudden Mmults",2015,0,1,3.5,"Young Ages",0.147132006052114
+"Young Sudden Mmults",2015,0,1,4,"Young Ages",0.130572297271583
+"Young Sudden Mmults",2015,0,1,4.5,"Young Ages",0.114818785781895
+"Young Sudden Mmults",2015,0,1,5,"Young Ages",0.100054176094117
+"Young Sudden Mmults",2000,0,1,3.1,"Young Ages",0.00433170245393874
+"Young Sudden Mmults",2000,0,1,3.2,"Young Ages",-0.0206851390804525
+"Young Sudden Mmults",2000,0,1,3.3,"Young Ages",-0.0453196581986862
+"Young Sudden Mmults",2000,0,1,3.4,"Young Ages",-0.0702652170473087
+"Young Sudden Mmults",2000,0,1,3.5,"Young Ages",-0.0952907254169072
+"Young Sudden Mmults",2005,0,1,3.1,"Young Ages",-0.0126512658017288
+"Young Sudden Mmults",2005,0,1,3.2,"Young Ages",-0.0349942580560232
+"Young Sudden Mmults",2005,0,1,3.3,"Young Ages",-0.0579339299487612
+"Young Sudden Mmults",2005,0,1,3.4,"Young Ages",-0.0819549336225759
+"Young Sudden Mmults",2005,0,1,3.5,"Young Ages",-0.106236155585557
+"Young Sudden Mmults",2010,0,1,4.6,"Young Ages",0.0132451999788943
+"Young Sudden Mmults",2010,0,1,4.7,"Young Ages",0.00410542805270031
+"Young Sudden Mmults",2010,0,1,4.8,"Young Ages",-0.00530086553414798
+"Young Sudden Mmults",2010,0,1,4.9,"Young Ages",-0.01500078268586
+"Young Ramp4 Mmults",2000,4,1,1.5,"Young Ages",0.233222091025109
+"Young Ramp4 Mmults",2000,4,1,2,"Young Ages",0.209425712722289
+"Young Ramp4 Mmults",2000,4,1,2.5,"Young Ages",0.153684324449114
+"Young Ramp4 Mmults",2000,4,1,3,"Young Ages",0.0584099520747631
+"Young Ramp4 Mmults",2000,4,1,3.5,"Young Ages",-0.0541367539219571
+"Young Ramp4 Mmults",2000,4,1,4,"Young Ages",-0.172347981088853
+"Young Ramp4 Mmults",2000,4,1,4.5,"Young Ages",-0.277002165429302
+"Young Ramp4 Mmults",2000,4,1,5,"Young Ages",-0.365194206817494
+"Young Ramp4 Mmults",2005,4,1,1.5,"Young Ages",0.220223533527448
+"Young Ramp4 Mmults",2005,4,1,2,"Young Ages",0.179005682313046
+"Young Ramp4 Mmults",2005,4,1,2.5,"Young Ages",0.109772690009483
+"Young Ramp4 Mmults",2005,4,1,3,"Young Ages",0.0054693357430443
+"Young Ramp4 Mmults",2005,4,1,3.5,"Young Ages",-0.121365217163875
+"Young Ramp4 Mmults",2005,4,1,4,"Young Ages",-0.244491236002104
+"Young Ramp4 Mmults",2005,4,1,4.5,"Young Ages",-0.353948774315247
+"Young Ramp4 Mmults",2005,4,1,5,"Young Ages",-0.445219501936555
+"Young Ramp4 Mmults",2010,4,1,1.5,"Young Ages",0.211105854804742
+"Young Ramp4 Mmults",2010,4,1,2,"Young Ages",0.173751598528457
+"Young Ramp4 Mmults",2010,4,1,2.5,"Young Ages",0.130326342865734
+"Young Ramp4 Mmults",2010,4,1,3,"Young Ages",0.0758843151215803
+"Young Ramp4 Mmults",2010,4,1,3.5,"Young Ages",0.00601707648826911
+"Young Ramp4 Mmults",2010,4,1,4,"Young Ages",-0.0785642309711145
+"Young Ramp4 Mmults",2010,4,1,4.5,"Young Ages",-0.174181064867744
+"Young Ramp4 Mmults",2010,4,1,5,"Young Ages",-0.270745414362283
+"Young Ramp4 Mmults",2015,4,1,1.5,"Young Ages",0.217239468652581
+"Young Ramp4 Mmults",2015,4,1,2,"Young Ages",0.192864680097671
+"Young Ramp4 Mmults",2015,4,1,2.5,"Young Ages",0.170258078659331
+"Young Ramp4 Mmults",2015,4,1,3,"Young Ages",0.149323478630848
+"Young Ramp4 Mmults",2015,4,1,3.5,"Young Ages",0.130884064909748
+"Young Ramp4 Mmults",2015,4,1,4,"Young Ages",0.114394941509847
+"Young Ramp4 Mmults",2015,4,1,4.5,"Young Ages",0.099267693229969
+"Young Ramp4 Mmults",2015,4,1,5,"Young Ages",0.0855497006731455
+"Young Ramp4 Mmults",2000,4,1,3.1,"Young Ages",0.0369718400013506
+"Young Ramp4 Mmults",2000,4,1,3.2,"Young Ages",0.0148835828255171
+"Young Ramp4 Mmults",2000,4,1,3.3,"Young Ages",-0.00774650264607926
+"Young Ramp4 Mmults",2000,4,1,3.4,"Young Ages",-0.0308183263535921
+"Young Ramp9 Mmults",2000,9,1,1.5,"Young Ages",0.234930278393474
+"Young Ramp9 Mmults",2000,9,1,2,"Young Ages",0.216639670527155
+"Young Ramp9 Mmults",2000,9,1,2.5,"Young Ages",0.171227999478401
+"Young Ramp9 Mmults",2000,9,1,3,"Young Ages",0.0889717927199158
+"Young Ramp9 Mmults",2000,9,1,3.5,"Young Ages",-0.0107693645324074
+"Young Ramp9 Mmults",2000,9,1,4,"Young Ages",-0.122476528646432
+"Young Ramp9 Mmults",2000,9,1,4.5,"Young Ages",-0.224511128211874
+"Young Ramp9 Mmults",2000,9,1,5,"Young Ages",-0.314446904296718
+"Young Ramp9 Mmults",2005,9,1,1.5,"Young Ages",0.226706008471133
+"Young Ramp9 Mmults",2005,9,1,2,"Young Ages",0.194254010278365
+"Young Ramp9 Mmults",2005,9,1,2.5,"Young Ages",0.13091662091005
+"Young Ramp9 Mmults",2005,9,1,3,"Young Ages",0.0293040725644001
+"Young Ramp9 Mmults",2005,9,1,3.5,"Young Ages",-0.0932877289743205
+"Young Ramp9 Mmults",2005,9,1,4,"Young Ages",-0.215706850457786
+"Young Ramp9 Mmults",2005,9,1,4.5,"Young Ages",-0.326646927792034
+"Young Ramp9 Mmults",2005,9,1,5,"Young Ages",-0.416748289039018
+"Young Ramp9 Mmults",2010,9,1,1.5,"Young Ages",0.21571059378488
+"Young Ramp9 Mmults",2010,9,1,2,"Young Ages",0.176806769660695
+"Young Ramp9 Mmults",2010,9,1,2.5,"Young Ages",0.122682556064788
+"Young Ramp9 Mmults",2010,9,1,3,"Young Ages",0.043793541343485
+"Young Ramp9 Mmults",2010,9,1,3.5,"Young Ages",-0.0593472477973829
+"Young Ramp9 Mmults",2010,9,1,4,"Young Ages",-0.176817631895593
+"Young Ramp9 Mmults",2010,9,1,4.5,"Young Ages",-0.290866789187762
+"Young Ramp9 Mmults",2010,9,1,5,"Young Ages",-0.393988474850567
+"Young Ramp9 Mmults",2015,9,1,1.5,"Young Ages",0.214456499439826
+"Young Ramp9 Mmults",2015,9,1,2,"Young Ages",0.185003376319529
+"Young Ramp9 Mmults",2015,9,1,2.5,"Young Ages",0.154539218231453
+"Young Ramp9 Mmults",2015,9,1,3,"Young Ages",0.124298880866346
+"Young Ramp9 Mmults",2015,9,1,3.5,"Young Ages",0.0913437580028661
+"Young Ramp9 Mmults",2015,9,1,4,"Young Ages",0.0544591867705346
+"Young Ramp9 Mmults",2015,9,1,4.5,"Young Ages",0.0119010327223449
+"Young Ramp9 Mmults",2015,9,1,5,"Young Ages",-0.0365126134977516
+"Young Ramp9 Mmults",2000,9,1,3.1,"Young Ages",0.0697428440581324
+"Young Ramp9 Mmults",2000,9,1,3.2,"Young Ages",0.0501543168630152
+"Young Ramp9 Mmults",2000,9,1,3.3,"Young Ages",0.0305418674616853
+"Young Ramp9 Mmults",2000,9,1,3.4,"Young Ages",0.0101833674507408
+"Young Ramp9 Mmults",2005,9,1,3.1,"Young Ages",0.00557053884994446
+"Young Ramp9 Mmults",2005,9,1,3.2,"Young Ages",-0.0188978635639329
+"Young Ramp9 Mmults",2005,9,1,3.3,"Young Ages",-0.043875538038498
+"Young Ramp9 Mmults",2005,9,1,3.4,"Young Ages",-0.0685192445465659
+"Young Ramp9 Mmults",2010,9,1,3.1,"Young Ages",0.0249040153464592
+"Young Ramp9 Mmults",2010,9,1,3.2,"Young Ages",0.0051561749542013
+"Young Ramp9 Mmults",2010,9,1,3.3,"Young Ages",-0.0153867283308519
+"Young Ramp9 Mmults",2010,9,1,3.4,"Young Ages",-0.0366743494382367
+"Young Ramp9 Mmults",2015,9,1,4.6,"Young Ages",0.00271259829473527
+"Young Ramp9 Mmults",2015,9,1,4.7,"Young Ages",-0.00673198375411184
+"Young Ramp9 Mmults",2015,9,1,4.8,"Young Ages",-0.0164152746200771
+"Young Ramp9 Mmults",2015,9,1,4.9,"Young Ages",-0.0263415687614849

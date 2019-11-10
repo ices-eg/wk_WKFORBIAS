@@ -188,7 +188,7 @@ In both stocks, the rho-adjusted approach and Rose approach the F status point w
 
 As seen in the GBYT example, the Rose approach can be influenced by one scenario that is quite different from the others. This influence could be reduced by using some other measure of central tendancy of the scenarios, such as the median or a trimmed mean. It would be better to make this decision before applying the Rose approach to eliminate any concern about basing the decision on the results.
 
-The rho-adjusted approach does not impact the reference points in these examples because only the terminal year is adjusted. There is not a stanard approach used to link the terminal year adjusted values back to the rest of the time series, resulting in a sudden discontinuity in the time series. This is one of the major concerns expressed with using the rho-adjusted approach. Another concern is that rho-adjusting the terminal year F and N does not necessarily result in the same catch that was originally predicted.
+The rho-adjusted approach does not impact the reference points in these examples because only the terminal year is adjusted. There is not a standard approach used to link the terminal year adjusted values back to the rest of the time series, resulting in a sudden discontinuity in the time series. This is one of the major concerns expressed with using the rho-adjusted approach. Another concern is that rho-adjusting the terminal year F and N does not necessarily result in the same catch that was originally predicted.
 
 Approach  | Pros  | Cons
 --------  | ----  | ----

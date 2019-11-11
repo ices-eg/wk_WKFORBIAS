@@ -14,7 +14,6 @@
 2019,"had.27.1-2","Haddock","AFWG",1,"Age based analytical assessment (SAM)that uses landings in the model and in the forecast"
 2019,"had.27.5b","Haddock","NWWG",1.7,"SAM"
 2019,"had.27.6b","Haddock","WGCSE",1,"Age-structured model (XSA), uses catches in the model and in the forecast"
-2019,"had.27.7a","Haddock","WGCSE",1,"Age-structured model (ASAP)"
 2019,"mac.27.nea","Mackerel","WGWIDE",1,"1.0 age-based analytical model (SAM)"
 2019,"pok.27.1-2","Saithe","AFWG",1,"Age-structured model (SAM) that uses landings in the model and the forecast"
 2019,"reb.27.1-2","Beaked redfish","AFWG",1,"Age-structured model, statistical catch-at-age"

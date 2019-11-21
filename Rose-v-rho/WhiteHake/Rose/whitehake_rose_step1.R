@@ -1,6 +1,8 @@
 # whitehake_rose_step1.R
 # apply Rose approach to 2019 White Hake assessment and compare to rho adjustment
 
+# added imults during WKFORBIAS meeting, so original function calls won't work
+
 # set working directory to source file location to begin
 
 # if needed
@@ -472,6 +474,35 @@ ggplot(scenario12s.df, aes(x=mmult, y=ssbrho, color=as.factor(change.year))) +
   ggtitle(scenario12s.df$scenario[1]) +
   theme_bw()
 
+
+
+####
+# try index multipliers
+year.vals <- c(2000, 2005, 2010, 2015)
+mymults <- seq(1.5, 5, 0.5)
+myscen13 <- "Sudden Imults"
+scenario13.df <- runRetroMults(myscen13, myname, n.peels, 0, year.vals, 1, 1, rep(1, nages), "All Ages", mymults, FALSE)
+
+# save work so far
+#sofar.df <- rbind(orig.df, scenario1.df)
+#write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
+write.csv(scenario13.df, file = "scenario13.csv", row.names = FALSE)
+
+# take a quick peek at how well retro removed for the scenario
+scenario13.df
+ggplot(scenario13.df, aes(x=imult, y=ssbrho, color=as.factor(change.year))) +
+  geom_line() +
+  geom_point() +
+  geom_hline(yintercept = 0, color = "red") +
+  ggtitle(scenario13.df$scenario[1]) +
+  theme_bw()
+ggsave("..\\saved\\scenario13.png")
+
+
+
+
+
+
 # copy results file so not lost
 file.copy(from = "sofar.csv", to = "..\\ssbrhodatabase.csv")
 
@@ -504,5 +535,24 @@ remove_retro_plot <- ggplot(tdf, aes(x=Multiplier, y=ssbrho, color=factor(change
 print(remove_retro_plot)
 ggsave(filename = "figs\\remove_retro.png", remove_retro_plot)
 
+# index multipliers one-off plot
+scenario13.df <- read.csv("scenario13.csv", header = TRUE)
+idf <- scenario13.df %>%
+  mutate(Multiplier = mmult * cmult * imult) %>%
+  mutate(case = ifelse(cmult > 1, "Cmult", ifelse(mmult > 1, paste("Mmult", mselxlab), "Imult"))) %>%
+  mutate(ramplab = ifelse(ramp == 0, " Sudden", paste0("Ramp", ramp)))
+
+remove_retro_imult_plot <- ggplot(idf, aes(x=Multiplier, y=ssbrho, color=factor(change.year))) +
+  geom_line() +
+  geom_point() +
+  geom_hline(yintercept = 0, color = "red") +
+  ylim(c(-0.75, 0.5)) +
+  facet_grid(ramplab ~ case) +
+  ylab("Mohn's rho for SSB") +
+  labs(color = "Change Year") +
+  scale_fill_manual(name = "Change Year", values = cbp1_no_yellow) +
+  theme_bw()
+print(remove_retro_imult_plot)
+ggsave(filename = "figs\\remove_retro_indexmults.png", remove_retro_imult_plot, width = 3, height = 2, units = "in")
 
 

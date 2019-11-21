@@ -184,6 +184,16 @@ catch_advice %>%
 
 ## Food for thought
 
+During the WKFORBIAS meeting, survey catchability changes were suggested as an additional means of removing the retrospective pattern. To have control over the search process, index multipliers were applied to the data, similar to the catch and natural mortality multipliers. However, initial explorations were not successful with none of the sudden change year multipliers reducing the Mohn's rho for SSB close enough to zero for GBYT.
+
+![](GBYT/Rose/figs/remove_retro_indexmults.png)
+
+Only one of the four change years was able to reduce the Mohn's rho for SSB to zero for White Hake.
+
+![](WhiteHake/Rose/figs/remove_retro_indexmults.png)
+
+The use of index multiplier does not appear to be an easy way to remove retrospective patterns. More research is needed to determine how survey catchabilty can be more easily incorporated in the Rose approach.
+
 In both stocks, the rho-adjusted approach and Rose approach the F status point was increased and the SSB status point was decreased relative to the original run. The change due to the Rose approach was greater than from the rho-adjusted approach in both cases. Similarly, in both stocks the catch advice provided by both approaches as lower than the original run and the catch advice from the Rose approach was lower than the catch advice provided by the rho-adjustment. 
 
 As seen in the GBYT example, the Rose approach can be influenced by one scenario that is quite different from the others. This influence could be reduced by using some other measure of central tendancy of the scenarios, such as the median or a trimmed mean. It would be better to make this decision before applying the Rose approach to eliminate any concern about basing the decision on the results.

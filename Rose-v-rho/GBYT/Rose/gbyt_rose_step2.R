@@ -38,6 +38,27 @@ remove_retro_plot <- ggplot(tdf, aes(x=Multiplier, y=ssbrho, color=factor(change
 print(remove_retro_plot)
 ggsave(filename = "figs\\remove_retro.png", remove_retro_plot)
 
+# index multipliers one-off plot
+scenario13.df <- read.csv("scenario13.csv", header = TRUE)
+idf <- scenario13.df %>%
+  mutate(Multiplier = mmult * cmult * imult) %>%
+  mutate(case = ifelse(cmult > 1, "Cmult", ifelse(mmult > 1, paste("Mmult", mselxlab), "Imult"))) %>%
+  mutate(ramplab = ifelse(ramp == 0, " Sudden", paste0("Ramp", ramp)))
+
+remove_retro_imult_plot <- ggplot(idf, aes(x=Multiplier, y=ssbrho, color=factor(change.year))) +
+  geom_line() +
+  geom_point() +
+  geom_hline(yintercept = 0, color = "red") +
+  ylim(c(-1, 3.5)) +
+  facet_grid(ramplab ~ case) +
+  ylab("Mohn's rho for SSB") +
+  labs(color = "Change Year") +
+  scale_fill_manual(name = "Change Year", values = cbp1_no_yellow) +
+  theme_bw()
+print(remove_retro_imult_plot)
+ggsave(filename = "figs\\remove_retro_indexmults.png", remove_retro_imult_plot, width = 3, height = 2, units = "in")
+
+# get the 12 best
 bestrho <- rhodb %>%
   filter(scenario != "Base Case") %>%
   mutate(multiplier = cmult * mmult) %>%

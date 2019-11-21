@@ -194,6 +194,16 @@ Only one of the four change years was able to reduce the Mohn's rho for SSB to z
 
 The use of index multiplier does not appear to be an easy way to remove retrospective patterns. More research is needed to determine how survey catchabilty can be more easily incorporated in the Rose approach.
 
+Information not used in the model can sometimes provide additional support for or against scenarios in the Rose approach. For GBYT survey catchability studies have been conducted that allow an estimation of population biomass. The surveys were not used in this manner in the ASAP runs, so these estimates can provide an external check on the model estimates of biomass. The original ASAP run provides a much lower estimate of biomass than the expanded surveys for most years, and a different trend from the expanded surveys. However, the rho-adjusted terminal SSB estimate (red dot in 2018) is quite close to the expanded survey value. Many of the Rose scenario ASAP runs provide SSB time series that are similar to the expanded surveys, although the Mmults for young ages do not. This could be used as a basis for not including these scenarios in the Rose average. The blue polygons denote approximate 95% confidence intervals for the expanded survey biomass estimates.
+
+![](GBYT/Rose/saved/ts_ssb_survey_ribbon.png)
+
+For demonstration purposes, all 12 scenarios are included in the following plot comparing the original, Rose, and rho-adjusted biomass estimates. 
+
+![](GBYT/Rose/saved/ts_rose_ssb_survey_ribbon.png)
+
+Expanded survey biomass estimates are not available for White Hake.
+
 In both stocks, the rho-adjusted approach and Rose approach the F status point was increased and the SSB status point was decreased relative to the original run. The change due to the Rose approach was greater than from the rho-adjusted approach in both cases. Similarly, in both stocks the catch advice provided by both approaches as lower than the original run and the catch advice from the Rose approach was lower than the catch advice provided by the rho-adjustment. 
 
 As seen in the GBYT example, the Rose approach can be influenced by one scenario that is quite different from the others. This influence could be reduced by using some other measure of central tendancy of the scenarios, such as the median or a trimmed mean. It would be better to make this decision before applying the Rose approach to eliminate any concern about basing the decision on the results.

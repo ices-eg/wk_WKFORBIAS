@@ -1,5 +1,6 @@
 # gbyt_rose.R
 # run Georges Bank yellowtail flounder through Rose analyses for WKFORBIAS
+# note changed rose package to include index multipliers during WKFORBIAS
 
 devtools::install_github("cmlegault/ASAPplots")
 devtools::install_github("cmlegault/rose")
@@ -556,6 +557,28 @@ scenario5complete.df <- runRetroMults(myscen5complete, myname, n.peels, 9, c(199
 sofar.df <- rbind(sofar.df, scenario5complete.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
+### new runs during WKFORBIAS meeting
+# run a set of Index mults for range of years
+year.vals <- c(1995, 2000, 2005, 2010, 2013, 2015)
+mymults <- seq(2, 10, 1)
+myscen13 <- "Sudden Imults"
+scenario13.df <- runRetroMults(myscen13, myname, n.peels, 0, year.vals, 1, 1, rep(1, nages), "All Ages", mymults, FALSE)
+
+write.csv(scenario13.df, file="scenario13.csv", row.names = FALSE)
+scenario13.df <- read.csv("scenario13.csv", header = TRUE)
+
+
+
+sofar.df <- rbind(sofar.df, scenario13complete.df)
+write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
+
+ggplot(scenario13.df, aes(x=imult, y=ssbrho, color=as.factor(change.year))) +
+  geom_line() +
+  geom_point() +
+  geom_hline(yintercept = 0, color = "red") +
+  ggtitle(scenario13.df$scenario[1]) +
+  theme_bw()
+ggsave("..\\saved\\suddenImults.png")
 
 ### note: will need to run runRetroMults for cases that want to save setting save.files=TRUE
 
@@ -568,7 +591,7 @@ file.copy(from = "sofar.csv", to = "..\\ssbrhodatabase.csv")
 
 ## to read back in sofar.csv
 sofar.df <- read.csv("sofar.csv", header = TRUE)
-
+sofar.df <- read.csv("..\\ssbrhodatabase.csv")
 
 
 

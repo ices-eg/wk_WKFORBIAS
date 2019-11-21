@@ -1,9 +1,9 @@
 ---
 title: "Rose v rho"
 author: "Chris Legault"
-date: "11/10/2019"
+date: "11/21/2019"
 output: 
-  html_document:
+  pdf_document:
     toc: true
 ---
 

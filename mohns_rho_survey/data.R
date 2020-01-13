@@ -54,29 +54,21 @@ provided_stocks <-
 
 
 
-#mohns_all[mohns_all$year == 2019 & 
-#          mohns_all$stock == "nop.27.3a4", 
-#          c("ssb_rho", "rec_rho", "fbar_rho")] 
-# is 50% for SSB, -33% for Fbar, and 103% for R shown in Figure 12.3.8. 
-
-# .  For Icelandic saithe retro of SSB is 0.08, F -0.07, Recruiment -0.46 and Reference biomass -0.01.  
-
-
-
-# apply submissions not in DB
-
+#mohns_all[mohns_all$year == 2019 &
+#          mohns_all$stock == "nop.27.3a4",
+#          c("ssb_rho", "rec_rho", "fbar_rho")]
 
 # scale values provided in percent
 
 filter(provided_stocks, abs(ssb_rho) > 10 | abs(fbar_rho) > 10 | abs(rec_rho) > 10)
 
 perc_stocks <-
-  c("nop.27.3a4", 
+  c("nop.27.3a4",
     "her.27.3031", "her.27.3a47d", "her.27.6a7bc",
     "san.sa.3r",
     "sol.27.20-24")
 
-provided_stocks <- 
+provided_stocks <-
   provided_stocks %>%
   mutate(
     ssb_rho = ifelse(stock %in% perc_stocks, ssb_rho / 100, ssb_rho),

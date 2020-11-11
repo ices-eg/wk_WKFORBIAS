@@ -17,17 +17,32 @@ getList <- function(lst) {
         spget(x$FieldValuesAsText$`__deferred`$uri)$d[-1]
       })
     )
-  out %>%
+
+
+    out %>%
+      select(
+        matches("^Stock|^Terminal|^Number|^Fbar|^SSB|^Recruitment|^Expert"),
+        Author, Editor, Modified
+      ) %>%
+      rename_all(
+        funs(
+            stringr::str_replace_all(., "_x[0-9]{3}[0-9a-f]", "") %>%
+              stringr::str_replace_all(., "_x[0-9]*", "") %>%
+              stringr::str_replace_all(., "_va?l?u?e?_?", "_value") %>%
+              stringr::str_replace_all(., "_$|_of$|_+was$|_on$", "")
+        )
+      ) %>%
+
     rename(
-      stock = Stock_x005f_x0020_x005f_code,
-      terminal_catch_year = Terminal_x005f_x0020_x005f_year_x005f_x0020_x005f_of_x005f_x00,
-      n_retros = Number_x005f_x0020_x005f_of_x005f_x0020_x005f_retrospect,
-      fbar_rho = Fbar_x005f_x0020_x005f_rho_x005f_x0020_x005f_value,
-      ssb_rho = SSB_x005f_x0020_x005f_rho_x005f_x0020_x005f_value,
-      ssb_intermediate_year = SSB_x005f_x0020_x005f_rho_x005f_x003a_x005f__x005f_x0020_x005f_was_x005f_x,
-      rec_rho = Recruitment_x005f_x0020_x005f_rho_x005f_x0020_x005f_valu,
-      rec_intermediate_year = Recruitment_x005f_x0020_x005f_rho_x005f_x003a_x005f__x005f_x00,
-      expert_opinion = Expert_x005f_x0020_x005f_opinion_x005f_x0020_x005f_on_x005f_x0,
+      stock = Stock_code,
+      terminal_catch_year = Terminal_year,
+      n_retros = Number_of_retrospect,
+      fbar_rho = Fbar_rho_value,
+      ssb_rho = SSB_rho_value,
+      ssb_intermediate_year = SSB_rho,
+      rec_rho = Recruitment_rho_value,
+      rec_intermediate_year = Recruitment_rho,
+      expert_opinion = Expert_opinion,
       author = Author,
       editor = Editor,
       modified = Modified
@@ -45,18 +60,20 @@ getList <- function(lst) {
 # get data from sharepoint
 mohns_2018 <- getList('Retro-bias-2018')
 mohns_2019 <- getList('Retro-bias-2019')
+mohns_2020 <- getList('Retro-bias-2020')
 
 # combine
 mohns_all <-
   rbind(cbind(mohns_2018, year = 2018),
-        cbind(mohns_2019, year = 2019))
+        cbind(mohns_2019, year = 2019),
+        cbind(mohns_2020, year = 2020))
 rownames(mohns_all) <- NULL
 
 # check which stock names were missing
 mohns_all %>% filter(stock == "")
 
 # remove names
-mohns_all <- 
+mohns_all <-
   mohns_all %>%
   select(-author, -editor)
 

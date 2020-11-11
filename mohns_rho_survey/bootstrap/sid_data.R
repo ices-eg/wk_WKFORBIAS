@@ -8,7 +8,7 @@ stockinfo <- icesSD::getSD()
 
 stockinfo <-
   stockinfo %>%
-  filter(ActiveYear %in% c(2018, 2019)) %>%
+  filter(ActiveYear %in% c(2018, 2019, 2020)) %>%
   rename(
     stock = StockKeyLabel,
     year = ActiveYear
